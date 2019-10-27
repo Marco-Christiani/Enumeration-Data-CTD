@@ -1,0 +1,36 @@
+[1m[34m[*][0m Spooling to file /home/user/EnumerationData/msf.txt...
+[4mmsf5[0m auxiliary([1m[31mscanner/misc/sunrpc_portmapper[0m) [0m> run
+[0m
+[1m[32m[+][0m 10.10.10.2:111        - SunRPC Programs for 10.10.10.2
+==============================
+
+ Name      Number  Version  Port   Protocol
+ ----      ------  -------  ----   --------
+ mountd    100005  1        48362  udp
+ mountd    100005  1        40453  tcp
+ mountd    100005  2        45375  udp
+ mountd    100005  2        48473  tcp
+ mountd    100005  3        52265  udp
+ mountd    100005  3        44571  tcp
+ nfs       100003  3        2049   tcp
+ nfs       100003  4        2049   tcp
+ nfs       100003  3        2049   udp
+ nfs_acl   100227  3        2049   tcp
+ nfs_acl   100227  3        2049   udp
+ nlockmgr  100021  1        54984  udp
+ nlockmgr  100021  3        54984  udp
+ nlockmgr  100021  4        54984  udp
+ nlockmgr  100021  1        33005  tcp
+ nlockmgr  100021  3        33005  tcp
+ nlockmgr  100021  4        33005  tcp
+ rpcbind   100000  4        111    tcp
+ rpcbind   100000  3        111    tcp
+ rpcbind   100000  2        111    tcp
+ rpcbind   100000  4        111    udp
+ rpcbind   100000  3        111    udp
+ rpcbind   100000  2        111    udp
+
+[1m[34m[*][0m 10.10.10.2:111        - Scanned 1 of 1 hosts (100% complete)
+[1m[34m[*][0m Auxiliary module execution completed
+[4mmsf5[0m auxiliary([1m[31mscanner/misc/sunrpc_portmapper[0m) [0m> spool off
+[0m
