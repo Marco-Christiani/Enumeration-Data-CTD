@@ -1,0 +1,75 @@
+Starting Nmap 7.70 ( https://nmap.org ) at 2019-10-27 06:58 UTC
+NSE: Loaded 148 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 06:58
+Completed NSE at 06:58, 0.00s elapsed
+Initiating NSE at 06:58
+Completed NSE at 06:58, 0.00s elapsed
+Initiating Ping Scan at 06:58
+Scanning 10.10.10.2 [2 ports]
+Completed Ping Scan at 06:58, 0.00s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 06:58
+Completed Parallel DNS resolution of 1 host. at 06:58, 0.00s elapsed
+Initiating Connect Scan at 06:58
+Scanning 10.10.10.2 [65536 ports]
+Discovered open port 21/tcp on 10.10.10.2
+Discovered open port 80/tcp on 10.10.10.2
+Discovered open port 111/tcp on 10.10.10.2
+Discovered open port 44571/tcp on 10.10.10.2
+Discovered open port 40453/tcp on 10.10.10.2
+Discovered open port 48473/tcp on 10.10.10.2
+Discovered open port 33005/tcp on 10.10.10.2
+Discovered open port 2049/tcp on 10.10.10.2
+Discovered open port 7822/tcp on 10.10.10.2
+Completed Connect Scan at 06:58, 4.56s elapsed (65536 total ports)
+Initiating Service scan at 06:58
+Scanning 9 services on 10.10.10.2
+Completed Service scan at 06:58, 11.01s elapsed (9 services on 1 host)
+NSE: Script scanning 10.10.10.2.
+Initiating NSE at 06:58
+Completed NSE at 06:58, 1.18s elapsed
+Initiating NSE at 06:58
+Completed NSE at 06:58, 0.02s elapsed
+Nmap scan report for 10.10.10.2
+Host is up (0.00044s latency).
+Not shown: 65527 closed ports
+PORT      STATE SERVICE  VERSION
+21/tcp    open  ftp      vsftpd 2.0.8 or later
+80/tcp    open  http     Apache httpd 2.4.38 ((Debian))
+| http-methods: 
+|_  Supported Methods: POST OPTIONS HEAD GET
+|_http-server-header: Apache/2.4.38 (Debian)
+|_http-title: Landing Page
+111/tcp   open  rpcbind  2-4 (RPC #100000)
+| rpcinfo: 
+|   program version   port/proto  service
+|   100000  2,3,4        111/tcp  rpcbind
+|   100000  2,3,4        111/udp  rpcbind
+|   100003  3           2049/udp  nfs
+|   100003  3,4         2049/tcp  nfs
+|   100005  1,2,3      44571/tcp  mountd
+|   100005  1,2,3      52265/udp  mountd
+|   100021  1,3,4      33005/tcp  nlockmgr
+|   100021  1,3,4      54984/udp  nlockmgr
+|   100227  3           2049/tcp  nfs_acl
+|_  100227  3           2049/udp  nfs_acl
+2049/tcp  open  nfs_acl  3 (RPC #100227)
+7822/tcp  open  ssh      OpenSSH 7.9p1 Debian 10+deb10u1 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 38:4f:e8:76:b4:b7:04:65:09:76:dd:23:4e:b5:69:ed (RSA)
+|   256 ac:d2:a6:0f:4b:41:77:df:06:f0:11:d5:92:39:9f:eb (ECDSA)
+|_  256 93:f7:78:6f:cc:e8:d4:8d:75:4b:c2:bc:13:4b:f0:dd (ED25519)
+33005/tcp open  nlockmgr 1-4 (RPC #100021)
+40453/tcp open  mountd   1-3 (RPC #100005)
+44571/tcp open  mountd   1-3 (RPC #100005)
+48473/tcp open  mountd   1-3 (RPC #100005)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+NSE: Script Post-scanning.
+Initiating NSE at 06:58
+Completed NSE at 06:58, 0.00s elapsed
+Initiating NSE at 06:58
+Completed NSE at 06:58, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 17.39 seconds
