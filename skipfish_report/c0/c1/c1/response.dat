@@ -1,0 +1,13 @@
+HTTP/1.1 200 Partial Content
+Date: Mon, 28 Oct 2019 20:56:53 GMT
+Server: Apache/2.4.38 (Debian)
+Last-Modified: Thu, 10 Oct 2019 18:12:14 GMT
+ETag: "e3b33-5949257479b80"
+Accept-Ranges: bytes
+Content-Length: 400000
+Content-Range: bytes 0-399999/932659
+Keep-Alive: timeout=5, max=83
+Connection: Keep-Alive
+Content-Type: image/gif
+
+GIF89aõ

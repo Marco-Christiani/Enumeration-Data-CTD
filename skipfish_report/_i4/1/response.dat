@@ -1,0 +1,32 @@
+HTTP/1.1 200 Partial Content
+Date: Mon, 28 Oct 2019 20:56:53 GMT
+Server: Apache/2.4.38 (Debian)
+Last-Modified: Thu, 10 Oct 2019 16:52:33 GMT
+ETag: "7c3-594913a4f5640-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Range: bytes 0-614/615
+Content-Length: 615
+Connection: close
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+<link rel="stylesheet" type="text/css" href="register.css">
+<link rel="stylesheet" type="text/css" href="bootstrap.bundle.min.js">
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="jquery.slim.min.js">
+<script type="text/javascript" src="bootstrap.min.cs"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-5">
+          <div class="card-body">
+            <h5 class="card-title text-center">Sign In</h5>
+            <form class="form-signin"

@@ -1,0 +1,33 @@
+HTTP/1.1 200 Partial Content
+Date: Mon, 28 Oct 2019 20:56:52 GMT
+Server: Apache/2.4.38 (Debian)
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Range: bytes 0-593/594
+Content-Length: 594
+Keep-Alive: timeout=5, max=91
+Connection: Keep-Alive
+Content-Type: text/html;charset=UTF-8
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /mysite</title>
+ </head>
+ <body>
+<h1>Index of /mysite</h1>
+  <table>
+   <tr><th valign="top"><img src="/icons/blank.gif" alt="[ICO]"></th><th><a href="?C=N;O=D">Name</a></th><th><a href="?C=M;O=A">Last modified</a></th><th><a href="?C=S;O=A">Size</a></th><th><a href="?C=D;O=A">Description</a></th></tr>
+   <tr><th colspan="5"><hr></th></tr>
+<tr><td valign="top"><img src="/icons/back.gif" alt="[PARENTDIR]"></td><td><a href="/">Parent Directory</a></td><td>&nbsp;</td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="all.css">all.css</a></td><td align="right">2019-10-10 22:17  </td><td align="right"> 54K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="bootstrap.bundle.min.js">bootstrap.bundle.min.js</a></td><td align="right">2019-10-11 04:50  </td><td align="right"> 77K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="bootstrap.min.cs">bootstrap.min.cs</a></td><td align="right">2019-10-11 04:52  </td><td align="right"> 66K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="bootstrap.min.css">bootstrap.min.css</a></td><td align="right">2019-10-11 04:49  </td><td align="right">152K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="jquery.slim.min.js">jquery.slim.min.js</a></td><td align="right">2019-10-11 04:49  </td><td align="right"> 69K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="register.css">register.css</a></td><td align="right">2019-10-10 22:17  </td><td align="right">2.4K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="register.html">register.html</a></td><td align="right">2019-10-10 22:22  </td><td align="right">1.9K</td><td>&nbsp;</td></tr>
+   <tr><th colspan="5"><hr></th></tr>
+</table>
+<address>Apache/2.4.38 (Debian) Server at 10.10.10.2 Port 80</address>
+</body></html>

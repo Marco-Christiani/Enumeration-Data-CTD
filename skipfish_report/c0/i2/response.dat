@@ -1,0 +1,22 @@
+HTTP/1.1 200 Partial Content
+Date: Mon, 28 Oct 2019 20:56:51 GMT
+Server: Apache/2.4.38 (Debian)
+Last-Modified: Thu, 10 Oct 2019 20:33:32 GMT
+ETag: "7ac-59494509b9f00-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Range: bytes 0-943/944
+Content-Length: 944
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Landing Page</title>
+<link rel="stylesheet" type="text/css" href="landing.css">
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"
