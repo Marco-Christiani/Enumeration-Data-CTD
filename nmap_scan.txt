@@ -1,3 +1,4 @@
+# Start of output
 Starting Nmap 7.70 ( https://nmap.org ) at 2019-10-27 06:58 UTC
 NSE: Loaded 148 scripts for scanning.
 NSE: Script Pre-scanning.
